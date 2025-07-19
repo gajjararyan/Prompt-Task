@@ -124,15 +124,15 @@ To get as close to perfect matching as possible, you’ll want more than just na
 - Prompts can only do so much—good data is just as important as good logic.
 
 ## Files in This Project
-- `prompt.py` — Main script for running the evaluation
-- `prompt.csv` — Input test cases (edit or extend as needed)
-- `test_results.xlsx` — Output with model results and reasoning
+- `prompt.py` - Main script for running the evaluation
+- `prompt.csv` - Input test cases (edit or extend as needed)
+- `test_results.xlsx` - Output with model results and reasoning
 
 ---
 
 ## Final Notes
 
-This AML Risk Evaluation Agent project is now complete. With the current prompt and test cases, the model achieved an accuracy of **98.33%**—demonstrating strong performance on both standard and challenging real-world scenarios.
+This AML Risk Evaluation Agent project is now complete. With the current prompt and test cases, the model achieved an accuracy of **98.33%** demonstrating strong performance on both standard and challenging real-world scenarios.
 
-I hope you found this README clean, comprehensive, and easy to follow. If you have any questions or want to build further, you should have everything you need right here. Thanks for reading, and happy experimenting!
+I hope you found this README clean, comprehensive, and easy to follow. Thanks for giving this opportunity.
 
