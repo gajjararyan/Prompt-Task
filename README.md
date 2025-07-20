@@ -133,5 +133,5 @@ To get as close to perfect matching as possible, We want more than just names an
 
 This AML Risk Evaluation Agent project is now complete. With the current prompt and test cases, the model achieved an accuracy of **98.33%** demonstrating strong performance on both standard and challenging real-world scenarios.
 
-I hope you found this README clean, comprehensive, and easy to follow. Thanks for giving this opportunity.
+I hope you found this README clean, comprehensive, and easy to follow. If you have any queries or do not understand anything, please let me know by email.
 
