@@ -105,23 +105,22 @@ Match Type: {match_type}
 
 ## Data Requirements for Better Accuracy
 
-To get as close to perfect matching as possible, you’ll want more than just names and types. Here’s what helps:
+To get as close to perfect matching as possible, We want more than just names and types. The following table outlines key limitations and the corresponding data points needed to overcome them, with relevant sources for **India** and **Global** use cases. Here’s what helps:
 
-| Limitation                        | Needed Data                | Why It Helps                                   | Where to Get It                |
-|-----------------------------------|----------------------------|------------------------------------------------|-------------------------------|
-| Name ambiguity/variants           | Unique ID (person/entity)  | Tells apart people/entities with same name      | KYC, National ID, SWIFT        |
-| Transliteration/cultural issues   | Aliases/alternate spellings| Matches across languages/scripts                | KYC, sanctions lists           |
-| Entity hierarchy confusion        | Parent/subsidiary info     | Links related companies correctly               | Corporate registries, Orbis    |
-| Type misclassification            | Explicit type field        | Prevents person/entity mismatches               | KYC, transaction metadata      |
-| Contextual info                   | Purpose/location           | Reduces false positives                         | Payment metadata, SWIFT        |
-| Date of birth/incorporation       | DOB/DOI                    | Distinguishes people/entities with same name    | KYC, corporate filings         |
-| List updates                      | List version/date          | Ensures screening is up-to-date                 | Regulator, list provider       |
-| Country info                      | Country field              | Helps with cultural name order/ambiguity        | KYC, corporate registries      |
-| Aliases/nicknames                 | Known aliases/nicknames    | Catches matches missed by formal name only      | KYC, watchlists, customer input|
+| **Limitation**                    | **Required Data Point**                                 | **How It Improves Matching**                                                         | **Data Source (Global + India)**                                                      |
+| --------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
+| Name ambiguity / variants         | Unique ID (e.g., PAN, SWIFT, LEI)                       | Disambiguates individuals/entities with the same name                                | **India**: PAN, Aadhaar, MCA CIN, LEI<br>**Global**: SWIFT BIC, LEI, National ID, KYC |
+| Transliteration / cultural issues | Aliases, alternate spellings, phonetic forms            | Enables matching across scripts and languages (e.g., Mohammad vs Muhammad)           | **India**: RBI lists, FIU<br>**Global**: OFAC, UN, World-Check, Refinitiv             |
+| Entity hierarchy confusion        | Parent/subsidiary relationships                         | Helps associate known risky parent or child companies                                | **India**: MCA, ROC<br>**Global**: Orbis, OpenCorporates, D\&B, LexisNexis            |
+| Type misclassification            | Explicit Type Field (Person / Entity)                   | Avoids person-entity confusion and improves model classification                     | **India**: KYC metadata, NSDL, UIDAI<br>**Global**: FATF KYC guidelines               |
+| Contextual ambiguity              | Transaction purpose, sender/receiver country            | Helps rule out false matches from benign sources                                     | **India**: SWIFT data, NEFT/RTGS metadata<br>**Global**: Payment rails metadata       |
+| Same name problem                 | Date of Birth (person) / Date of Incorporation (entity) | Distinguishes similar-named individuals/entities                                     | **India**: UIDAI, PAN, KYC, MCA<br>**Global**: World-Check, Refinitiv                 |
+| List freshness                    | List version and last update date                       | Prevents outdated or stale matches                                                   | **India**: RBI, SEBI Sanctions List<br>**Global**: OFAC, UN, EU, Interpol             |
+| Country-level ambiguity           | Nationality / Country of Incorporation                  | Helps resolve culturally ambiguous names and enforce local jurisdictional rules      | **India**: Aadhaar, MCA ROC<br>**Global**: UN, OFAC, International Sanctions Lists    |
+| Hidden aliases or nicknames       | Known aliases / nicknames / banned name patterns        | Increases detection accuracy, especially in politically sensitive or high-risk zones | **India**: FIU, SEBI Watchlists<br>**Global**: LexisNexis, PEP databases              |
 
-**Bottom line:**
-- The more context you have, the better the matching.
-- Prompts can only do so much—good data is just as important as good logic.
+---
+
 
 ## Files in This Project
 - `prompt.py` - Main script for running the evaluation
