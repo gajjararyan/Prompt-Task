@@ -105,7 +105,7 @@ Match Type: {match_type}
 
 ## Data Requirements for Better Accuracy
 
-To get as close to perfect matching as possible, We want more than just names and types. The following table outlines key limitations and the corresponding data points needed to overcome them, with relevant sources for **India** and **Global** use cases. Here’s what helps:
+To get as close to perfect matching as possible, we need more than just names and types. The table below lists key challenges and the extra data needed to solve them, with sources relevant to both India and global use cases. Here’s what helps:
 
 | **Limitation**                    | **Required Data Point**                                 | **How It Improves Matching**                                                         | **Data Source (Global + India)**                                                      |
 | --------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
@@ -124,7 +124,7 @@ To get as close to perfect matching as possible, We want more than just names an
 
 ## Files in This Project
 - `prompt.py` - Main script for running the evaluation
-- `prompt.csv` - Input test cases (edit or extend as needed)
+- `prompt.csv` - Input test cases (originally 25, but additional ones have been added for further testing, feel free to edit or extend as needed)
 - `test_results.xlsx` - Output with model results and reasoning
 
 ---
