@@ -23,8 +23,8 @@ ENV/
 Thumbs.db
 
 # Output files
-*.xlsx
-*.csv
+# *.xlsx
+# *.csv
 
 # Logs
 *.log

@@ -1,0 +1,61 @@
+SI. No,Transaction Data,High Risk Database Entry,High Risk Database Entry Type,Match Type
+1,Payment to apple inc,APPLE INC,Entity,TRUE
+2,Invoice payment to Microsoft Corp,MICROSOFT CORPORATION,Entity,TRUE
+3,Purchase from Procter and Gamble,PROCTER & GAMBLE,Entity,TRUE
+4,Payment to Tesla Motors LLC,TESLA INC,Entity,FALSE
+5,Payment to SOLA RIS COMMODITIES DMCC,SOLARIS ENERGY,Entity,FALSE
+6,Order payment to Amazon UK,AMAZON,Entity,TRUE
+7,Transfer to PayPal Holdings Inc,PAYPAL PRIVATE LIMITED,Entity,FALSE
+8,Loan payment to Axis,AXIS BANK,Entity,TRUE
+9,Purchase of gold jewelry,GOLD INVESTMENTS LLC,Entity,FALSE
+10,March salary payment,MARCH ENTERPRISES,Entity,FALSE
+11,Send money to Yusuf Hassan,HASSAN YUSUF,Person,TRUE
+12,Payment to Muhammad Ali Hassan,MOHAMMAD ALI HASSAN,Person,TRUE
+13,Transfer to Rahman Abdul,ABDUL RAHMAN BIN HASSAN,Person,TRUE
+14,Salary to Ming Hao Li,LI MING HAO,Person,TRUE
+15,Bonus payment to Jonathan,JONATHAN FOONG,Person,FALSE
+16,Transfer to Rahim Ahmad,RAHEEM AHMAD,Person,TRUE
+17,Send money to December for birthday,DECEMBER INC,Entity,FALSE
+18,Payment to Smith Industries LLC,JOHN SMITH,Person,FALSE
+19,Wire transfer to Wells Fargo Bank,WELLS FARGO & COMPANY,Entity,TRUE
+20,Payment for coca cola drinks,THE COCA-COLA COMPANY,Entity,FALSE
+21,Money transfer to Ibn Abdullah,ABDULLAH IBN OMAR,Person,TRUE
+22,Service payment to JP Morgan,JPMORGAN CHASE & CO,Entity,TRUE
+23,Gift to Mary for Christmas,MARY ELIZABETH WATSON,Person,FALSE
+24,January rent payment,JANUARY HOLDINGS LTD,Entity,FALSE
+25,Remittance to Zhang Wei,WEI ZHANG,Person,TRUE 
+26,Payment to Chevron Corp,CHEVRON CORPORATION,Entity,TRUE
+27,Wire to Goldman Sachs Group,GOLDMAN SACHS,Entity,TRUE
+28,Payment for Nike products,NIKE INC,Entity,TRUE
+29,Transfer to Samsung Electronics,SAMSUNG GROUP,Entity,FALSE
+30,Salary to Chen Wei,WEI CHEN,Person,TRUE
+31,Payment to PetroChina Co Ltd,PETROCHINA,Entity,TRUE
+32,Donation to Clinton Foundation,CLINTON GLOBAL INITIATIVE,Entity,FALSE
+33,Bonus to Tanaka Kenji,TANAKA KENJI,Person,TRUE
+34,Payment to Lockheed Martin Corp,LOCKHEED MARTIN,Entity,TRUE
+35,Transfer to Singh Rajesh,RAJESH SINGH,Person,TRUE
+36,Invoice to Unilever NV,UNILEVER PLC,Entity,FALSE
+37,Payment to Novartis AG,NOVARTIS INTERNATIONAL AG,Entity,TRUE
+38,Remittance to Garcia Maria,MARIA GARCIA-LOPEZ,Person,FALSE
+39,Royalty to Sony Pictures,SONY ENTERTAINMENT,Entity,TRUE
+40,Payment to Huawei Technologies,HUAWEI INVESTMENT HOLDING,Entity,FALSE
+41,Fee to Schneider Electric,SCHNEIDER ELECTRIC SE,Entity,TRUE
+42,Gift to Kim Yong-Jun,KIM YONG JUN,Person,TRUE
+43,Payment to Rio Tinto Ltd,RIO TINTO GROUP,Entity,TRUE
+44,Transfer to Müller Thomas,THOMAS MUELLER,Person,TRUE
+45,Payment to BlackRock Inc,BLACKROCK INVESTMENTS,Entity,FALSE
+46,Salary to Nguyen Van Anh,NGUYEN VAN ANH,Person,TRUE
+47,Payment to Glencore International,GLENCORE LTD,Entity,TRUE
+48,Commission to Patel Amit,AMITABH PATEL,Person,FALSE
+49,Payment to Airbus SE,AIRBUS GROUP,Entity,TRUE
+50,Transfer to Ivanov Sergei,SERGEY IVANOV,Person,TRUE 
+51,Payment to Mohammad Younus,MOHAMED YUNUS,Person,TRUE
+52,Transfer to Wei Zhang,ZHANG WEI,Person,TRUE
+53,Payment to Google LLC,ALPHABET INC,Entity,FALSE
+54,Payment to IBM,INTERNATIONAL BUSINESS MACHINES CORPORATION,Entity,TRUE
+55,Transfer to John Smith,JOHN SMITH,Person,FALSE
+56,Payment to Hezbollah,HIZBULLAH,Entity,TRUE
+57,Payment to Apple,JOHN APPLE,Person,FALSE
+58,Transfer to José García,JOSE GARCIA,Person,TRUE
+59,Payment to Shell Nigeria,ROYAL DUTCH SHELL PLC,Entity,TRUE
+60,Payment to Mary E. Watson,MARY ELIZABETH WATSON,Person,TRUE 
